@@ -1,0 +1,12 @@
+{
+  "name": "tv-home",
+  "version": "1.0.0",
+  "description": "TizenBrew module: opens a home screen served on the home network. This package holds only the address, so it does nothing anywhere else.",
+  "license": "MIT",
+  "packageType": "mods",
+  "appName": "Home",
+  "websiteURL": "http://192.168.4.93:8090/",
+  "main": "inject.js",
+  "evaluateScriptOnDocumentStart": false,
+  "keys": ["MediaPlayPause", "MediaPlay", "MediaPause", "MediaStop", "MediaFastForward", "MediaRewind", "MediaTrackNext", "MediaTrackPrevious"]
+}
